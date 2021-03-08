@@ -5,7 +5,7 @@ Zu Programmieren ist eine Einkaufslisten - App.
 ## Erklärung
 Hierfür ist zuerst ein Backend zu programmieren, welches die entsprechenden Befehle empfängt, verarbeitet und eine Antwort zurückschickt.
 Das Backend wird über einen HTTP - Server abgebildet, welcher selbst in JAVA Programmiert wird.
-Das Frontend wird als Angularanwendung programmiert.
+Das Frontend wird als Angular Anwendung programmiert.
 
 Der Server liefert die Daten über eine REST - API (REST ... Representational State Transfer) im JSON - Format an die Angular Anwendung.
 
@@ -18,6 +18,8 @@ Der Server liefert die Daten über eine REST - API (REST ... Representational St
 Mehr dazu: https://www.elektronik-kompendium.de/sites/net/0902231.htm
 
 Eine einfache Umsetzung eines HTTP Servers kann hier gefunden werden: https://ssaurel.medium.com/create-a-simple-http-web-server-in-java-3fc12b29d5fd
+
+Als Vorlage / Hilfe für die Angular Anwendung dient das Tour of Heroes Tutorial: https://angular.io/tutorial
 
 ## Schnittstellen
 Hierfür werden folgende CRUD (Create, Read, Update, Delete) - Schnittstellen am Server vorgesehen:
@@ -46,5 +48,5 @@ Der Name des Repositories lautet wie folgt: 2021_3AHITN_ITP2_<Ihr HTL Steyr Benu
 
 
 Im Template sind zwei Ordner enthalten: 
-- Frontend: Hier wird das Frontend (= Angular Anwendung) hochgeladen. Das Verzeichnis beinhaltet bereits eine .gitignore Datei, welche für Angular - Anwendungen optimiert ist: https://www.toptal.com/developers/gitignore/api/angular
+- Frontend: Hier wird das Frontend (= Angular Anwendung) hochgeladen. Das Verzeichnis beinhaltet bereits eine .gitignore Datei, welche für Angular Anwendungen optimiert ist: https://www.toptal.com/developers/gitignore/api/angular
 - Backend: Hier wird das Backend (= Java Server) hochgeladen. Das Verzeichnis beinhaltet bereits eine .gitignore Datei, welche für Java Anwendungen mit IntelliJ optimiert ist: https://www.toptal.com/developers/gitignore/api/intellij
