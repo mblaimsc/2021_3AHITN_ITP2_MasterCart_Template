@@ -11,10 +11,10 @@ Der Server liefert die Daten über eine REST - API (REST ... Representational St
 
 ###  Wie funktioniert REST-API?
 >Die „Representational State Transfer - Application Programming Interface“ (REST-API) ist eine Programmier-Schnittstelle, die den Austausch von Daten auf verteilten Systemen - insbesondere für Web-Services - ermöglicht.
-> Die Programmierschnittstelle REST-API nutzt HTTP-Anfragen, um per PUT, GET, POST und DELETE auf Informationen zuzugreifen. Da REST das Verbinden mit Cloud-Diensten erlaubt und eine Interaktion ermöglicht, ist sie meist die erste Wahl. So sind REST-APIs zum Beispiel für Twitter, Amazon und Google im ständigen Einsatz. Und AWS, VMware, Azure und andere Cloud-Anbieter setzen fast ausschließlich auf REST. \\ \\ Mehr dazu: https://www.datacenter-insider.de/was-ist-rest-api-a-714434
+> Die Programmierschnittstelle REST-API nutzt HTTP-Anfragen, um per PUT, GET, POST und DELETE auf Informationen zuzugreifen. Da REST das Verbinden mit Cloud-Diensten erlaubt und eine Interaktion ermöglicht, ist sie meist die erste Wahl. So sind REST-APIs zum Beispiel für Twitter, Amazon und Google im ständigen Einsatz. Und AWS, VMware, Azure und andere Cloud-Anbieter setzen fast ausschließlich auf REST. <br/> Mehr dazu: https://www.datacenter-insider.de/was-ist-rest-api-a-714434
 
 ### Wie funktioniert HTTP?
-> Die Kommunikation findet nach dem Client-Server-Prinzip statt. Der HTTP-Client (Browser) sendet seine Anfrage (HTTP-Request) an den HTTP-Server (Webserver/Web-Server). Dieser bearbeitet die Anfrage und schickt seine Antwort (HTTP-Response) zurück. Nach der Antwort durch den Server ist diese Verbindung beendet. Typischerweise finden gleichzeitig mehrere HTTP-Verbindungen statt.
+> Die Kommunikation findet nach dem Client-Server-Prinzip statt. Der HTTP-Client (Browser) sendet seine Anfrage (HTTP-Request) an den HTTP-Server (Webserver/Web-Server). Dieser bearbeitet die Anfrage und schickt seine Antwort (HTTP-Response) zurück. Nach der Antwort durch den Server ist diese Verbindung beendet. Typischerweise finden gleichzeitig mehrere HTTP-Verbindungen statt.<br />
 Mehr dazu: https://www.elektronik-kompendium.de/sites/net/0902231.htm
 
 Eine einfache Umsetzung eines HTTP Servers kann hier gefunden werden: https://ssaurel.medium.com/create-a-simple-http-web-server-in-java-3fc12b29d5fd
