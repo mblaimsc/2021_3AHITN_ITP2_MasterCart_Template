@@ -33,7 +33,7 @@ Wenn eine nicht vorhandene URL aufgerufen wird, oder eine falsche HTTP Methode v
 
 ## Zeitplan
 - Woche 1 (08.03.2021 - 14.03.2021): Grundsätzliches Entwickeln eines Java HTTP Servers
-- Woche 2 (05.03.2021 - 21.03.2021): Implementieren der jeweiligen REST - Schnittstellen am HTTP Server
+- Woche 2 (15.03.2021 - 21.03.2021): Implementieren der jeweiligen REST - Schnittstellen am HTTP Server
 - Woche 3 (22.03.2021 - 28.03.2021): Implementieren der jeweiligen REST - Schnittstellen am HTTP Server
 - Woche 4 (05.04.2021 - 11.04.2021): Grundsätzlicher Entwurf einer Angular Anwendung
 - Woche 5 (12.04.2021 - 18.04.2021): Implementieren der jeweiligen REST - Schnittstellen in der Angular Anwendung
