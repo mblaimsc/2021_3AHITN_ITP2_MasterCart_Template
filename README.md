@@ -41,7 +41,7 @@ Wenn eine nicht vorhandene URL aufgerufen wird, oder eine falsche HTTP Methode v
 Die Dokumentation des Projekts (Zusammenfassung der Tätigkeiten in den einzelnen Unterrichtseinheiten, Beschreibung des Backends, Beschreibung des Frontends, ...) wird im Markdown Format in Form einer README[]().md im Github Repository im jeweiligen Ordner geführt.
 
 ## Abgabe
-Die Abgabe erfolgt über Github. Erzeugen Sie hierfür ein neues Repository (Owner HTL-Steyr). Als Vorlage wählen Sie folgendes Template: 2021_3AHITN_ITP2_MasterCart_Template
+Die Abgabe erfolgt über Github. Erzeugen Sie hierfür ein neues Repository (Owner HTL-Steyr). Als Vorlage wählen Sie folgendes Template: 2021_3AHITN_ITP2_MasterCart_Template.
 Der Name des Repositories lautet wie folgt: 2021_3AHITN_ITP2_<Ihr HTL Steyr Benutzername>_MasterCart
 
 
