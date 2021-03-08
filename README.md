@@ -22,7 +22,7 @@ Eine einfache Umsetzung eines HTTP Servers kann hier gefunden werden: https://ss
 Als Vorlage / Hilfe für die Angular Anwendung dient das Tour of Heroes Tutorial: https://angular.io/tutorial
 
 ## Schnittstellen
-Hierfür werden folgende CRUD (Create, Read, Update, Delete) - Schnittstellen am Server vorgesehen:
+Hierfür werden Schnittstellen für die folgenden CRUD (Create, Read, Update, Delete) - Operationen am Server vorgesehen:
 - Hinzufügen eines neuen Items zur Einkaufsliste 	... PUT Request an `http(s)://<serveradresse>:<port>/create`
 - Laden eines speziellen Items von der Einkaufsliste 	... GET Request an `http(s)://<serveradresse>:<port>/read/<id des Items>`
 - Bearbeiten eines bestehenden Items 			... POST Request an `http(s)://<serveradresse>:<port>/update/<id des Items>`
