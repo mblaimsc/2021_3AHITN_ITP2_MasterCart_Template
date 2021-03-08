@@ -21,11 +21,11 @@ Eine einfache Umsetzung eines HTTP Servers kann hier gefunden werden: https://ss
 
 ## Schnittstellen
 Hierfür werden folgende CRUD (Create, Read, Update, Delete) - Schnittstellen am Server vorgesehen:
-- Hinzufügen eines neuen Items zur Einkaufsliste 	... POST Request an http(s)://<serveradresse>:<port>/create
-- Laden eines speziellen Items von der Einkaufsliste 	... GET Request an http(s)://<serveradresse>:<port>/read/<id des Items>
-- Bearbeiten eines bestehenden Items 			... POST Request an http(s)://<serveradresse>:<port>/update/<id des Items>
-- Löschen eines bestehenden Items von der Einkaufsliste ... DELETE Request an http(s)://<serveradresse>:<port>/delete/<id des Items>
-- Laden der aller Items in der Einkaufsliste 		... GET Request an http(s)://<serveradresse>:<port>/read/all
+- Hinzufügen eines neuen Items zur Einkaufsliste 	... PUT Request an `http(s)://<serveradresse>:<port>/create`
+- Laden eines speziellen Items von der Einkaufsliste 	... GET Request an `http(s)://<serveradresse>:<port>/read/<id des Items>`
+- Bearbeiten eines bestehenden Items 			... POST Request an `http(s)://<serveradresse>:<port>/update/<id des Items>`
+- Löschen eines bestehenden Items von der Einkaufsliste ... DELETE Request an `http(s)://<serveradresse>:<port>/delete/<id des Items>`
+- Laden der aller Items in der Einkaufsliste 		... GET Request an `http(s)://<serveradresse>:<port>/read/all`
 
 Wenn eine nicht vorhandene URL aufgerufen wird, oder eine falsche HTTP Methode verwendet wird (z.B. POST anstelle von DELETE), so soll ein Fehler mit dem Fehlercode 404 bzw. 405 vom Server geliefert werden. 
 
